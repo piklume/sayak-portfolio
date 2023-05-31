@@ -1,27 +1,27 @@
 'use client';
 
-import { Card } from 'antd';
 import Image from 'next/image';
 
 const UserCard: React.FC = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <div>
         <Image
-          src="/profile.png"
-          width={300}
-          height={300}
+          src="/profile-picture.png"
+          width={200}
+          height={200}
           alt="Picture of the author"
-          className="border-2 rounded-full shadow-md"
+          className="border-2 rounded-full shadow-md border-slate-700"
         />
       </div>
-      <div className="mt-4 border-2 rounded-md bg-gradient-to-r from-zinc-400 to-zinc-100">
-        <h2>Sayak Dutta</h2>
-        <h3>Software Developer</h3>
+      <div className="mt-4 p-4 border-2 rounded-xl font-sans bg-slate-50/30">
+        <h2 className="text-2xl">Sayak Dutta</h2>
+        <p className="text-lg mt-1">
+          Hey, I have been building beautiful applications for the past 5 years
+        </p>
       </div>
     </div>
   );
 };
-// background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
 
 export default UserCard;
