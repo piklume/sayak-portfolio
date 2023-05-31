@@ -26,6 +26,7 @@ const MenuButtonsCollection: React.FC = () => {
       {buttonList.map((button) => (
         <Button
           key={button.name}
+          className="text-slate-700"
           ghost
           onClick={() => router.push(button.path)}
         >

@@ -12,7 +12,7 @@ const UserCard: React.FC = () => {
           className="border-2 rounded-full shadow-md border-slate-700"
         />
       </div>
-      <div className="mt-4 p-4 border-2 rounded-xl font-sans bg-slate-50/30">
+      <div className="mt-4 p-4 border-2 rounded-xl font-sans bg-slate-50/30 text-slate-700">
         <h2 className="text-2xl">Sayak Dutta</h2>
         <p className="text-lg mt-1">
           Hey, I have been building beautiful applications for the past 5 years
