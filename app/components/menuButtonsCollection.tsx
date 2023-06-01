@@ -2,28 +2,14 @@
 
 import { Button } from 'antd';
 import { useRouter } from 'next/navigation';
-
-const buttonList = [
-  {
-    name: 'About',
-    path: '/about',
-  },
-  {
-    name: 'Projects',
-    path: '/projects',
-  },
-  {
-    name: 'Resume',
-    path: '/resume',
-  },
-];
+import { MENU_LIST } from '../common/constants';
 
 const MenuButtonsCollection: React.FC = () => {
   const router = useRouter();
 
   return (
     <div className="flex flex-row gap-x-4">
-      {buttonList.map((button) => (
+      {MENU_LIST.map((button) => (
         <Button
           key={button.name}
           className="text-slate-700"

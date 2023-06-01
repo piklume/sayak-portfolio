@@ -1,3 +1,5 @@
+import NavMenuBar from '../common/components/navMenuBar';
+
 export default function ResumeLayout({
   children, // will be a page or nested layout
 }: {
@@ -5,7 +7,7 @@ export default function ResumeLayout({
 }) {
   return (
     <section>
-      <div>Header goes here</div>
+      <NavMenuBar />
 
       {children}
     </section>
