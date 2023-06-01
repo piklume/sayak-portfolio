@@ -1,4 +1,4 @@
-export const MENU_LIST = [
+export const BUTTON_LIST = [
   {
     name: 'About',
     path: '/about',
@@ -11,4 +11,12 @@ export const MENU_LIST = [
     name: 'Resume',
     path: '/resume',
   },
+];
+
+export const MENU_LIST = [
+  {
+    name: 'Home',
+    path: '/',
+  },
+  ...BUTTON_LIST,
 ];
