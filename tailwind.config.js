@@ -78,6 +78,7 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       slate: colors.slate,
+      rose: colors.rose,
     },
   },
   plugins: [],
