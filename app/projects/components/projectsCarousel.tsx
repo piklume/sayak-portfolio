@@ -24,7 +24,7 @@ const ProjectsCarousel: React.FC = () => (
             width={700}
             height={500}
             alt={name}
-            className='max-h-96 mx-auto border-0 rounded-md shadow-lg'
+            className='max-h-96 mx-auto border-0 rounded-md shadow-sm'
           />
         </div>
       ))}
