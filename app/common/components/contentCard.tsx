@@ -7,9 +7,9 @@ type props = {
 export default function ContentCard({ title, content, children }: props) {
   return (
     <div className="p-4 border-2 rounded-xl font-sans bg-slate-50/30 text-slate-700 hover:shadow-inner">
-      <h2 className="text-2xl">{title}</h2>
+      <h2 className="text-2xl font-bold">{title}</h2>
       <p className="text-base mt-6">{content}</p>
-      <p className="text-base mt-1">{children}</p>
+      {children && <p className="text-base mt-1">{children}</p>}
     </div>
   );
 }
