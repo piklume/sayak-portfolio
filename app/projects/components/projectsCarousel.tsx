@@ -18,7 +18,7 @@ const ProjectsCarousel: React.FC = () => (
   <div className="container mx-auto">
     <Carousel>
       {PROJECT_IMAGE_LIST.map(({ name, path }) => (
-        <div key={name} className="h-96">
+        <div key={name} className="h-52 md:h-96">
           <Image
             src={path}
             width={700}
