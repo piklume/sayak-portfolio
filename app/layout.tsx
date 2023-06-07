@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} container mx-auto h-screen px-4 py-4`}
+        className={`${inter.className} container mx-auto h-screen w-screen px-4 py-4`}
       >
         {children}
       </body>

@@ -25,6 +25,7 @@ export const MENU_LIST = [
 
 export const PROJECTS_DATA_LIST: Projects = [
   {
+    id: 'crwn',
     name: 'Crown Clothing',
     path: '/crwnclothing.png',
     title: 'E-commerce Website',
@@ -35,6 +36,7 @@ export const PROJECTS_DATA_LIST: Projects = [
     sourceBE: undefined,
   },
   {
+    id: 'brain',
     name: 'Magic Brain',
     path: '/magicbrain.png',
     title: 'Face Detection Magic Brain',
