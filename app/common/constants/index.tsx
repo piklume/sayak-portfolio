@@ -39,7 +39,7 @@ export const PROJECTS_DATA_LIST: Projects = [
     id: 'brain',
     name: 'Magic Brain',
     path: '/magicbrain.png',
-    title: 'Face Detection Magic Brain',
+    title: 'Face Detect Magic Brain',
     shortDescription: 'Use AI to detect faces in your pictures!',
     liveLink: 'https://piklume.github.io/facerecognitionbrain/',
     sourceFE: 'https://github.com/piklume/facerecognitionbrain',
