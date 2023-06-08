@@ -13,8 +13,6 @@ export async function generateStaticParams() {
 // Multiple versions of this page will be statically generated
 // using the `params` returned by `generateStaticParams`
 export default function Page({ params }: { params: { id: string } }) {
-  console.log('paroams', params);
-  
   const { id } = params;
 
   const project: Project = PROJECTS_DATA_LIST.find(
